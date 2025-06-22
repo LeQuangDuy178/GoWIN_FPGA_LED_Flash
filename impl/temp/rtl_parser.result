@@ -1,9 +1,9 @@
 [
  {
-  "InstFile" : "D:/DuyLe/Projects/GoWin_Project/GoWin_DK_Start/led_flash/src/led_flash.v",
+  "InstFile" : "D:/Backup1/AI Hardware Accelerator/GoAI/GoWin_Project/GoWin_DK_Start/led_flash/GoWIN_FPGA_LED_Flash/src/led_flash.v",
   "InstLine" : 1,
   "InstName" : "led_flash",
-  "ModuleFile" : "D:/DuyLe/Projects/GoWin_Project/GoWin_DK_Start/led_flash/src/led_flash.v",
+  "ModuleFile" : "D:/Backup1/AI Hardware Accelerator/GoAI/GoWin_Project/GoWin_DK_Start/led_flash/GoWIN_FPGA_LED_Flash/src/led_flash.v",
   "ModuleLine" : 1,
   "ModuleName" : "led_flash"
  }

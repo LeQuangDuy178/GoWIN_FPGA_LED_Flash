@@ -4,15 +4,15 @@
     <Version>beta</Version>
     <Device id="GW5A-25A" package="UBGA324" speed="2" partNumber="GW5A-LV25UG324C2/I1"/>
     <FileList>
-        <File path="D:\DuyLe\Projects\GoWin_Project\GoWin_DK_Start\led_flash\src\led_flash.v" type="verilog"/>
-        <File path="D:\DuyLe\Projects\GoWin_Project\GoWin_DK_Start\led_flash\src\led_flash_1.v" type="verilog"/>
+        <File path="D:\Backup1\AI Hardware Accelerator\GoAI\GoWin_Project\GoWin_DK_Start\led_flash\GoWIN_FPGA_LED_Flash\src\led_flash.v" type="verilog"/>
+        <File path="D:\Backup1\AI Hardware Accelerator\GoAI\GoWin_Project\GoWin_DK_Start\led_flash\GoWIN_FPGA_LED_Flash\src\led_flash_1.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>
         <Option type="enable_dsrm" value="0"/>
         <Option type="global_freq" value="100.000"/>
         <Option type="looplimit" value="2000"/>
-        <Option type="output_file" value="D:\DuyLe\Projects\GoWin_Project\GoWin_DK_Start\led_flash\impl\gwsynthesis\led_flash.vg"/>
+        <Option type="output_file" value="D:\Backup1\AI Hardware Accelerator\GoAI\GoWin_Project\GoWin_DK_Start\led_flash\GoWIN_FPGA_LED_Flash\impl\gwsynthesis\led_flash.vg"/>
         <Option type="print_all_synthesis_warning" value="0"/>
         <Option type="ram_rw_check" value="0"/>
         <Option type="top_module" value="led_flash"/>

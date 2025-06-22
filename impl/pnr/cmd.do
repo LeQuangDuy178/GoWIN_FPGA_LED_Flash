@@ -1,8 +1,8 @@
--d D:\DuyLe\Projects\GoWin_Project\GoWin_DK_Start\led_flash\impl\gwsynthesis\led_flash.vg
+-d D:\Backup1\AI Hardware Accelerator\GoAI\GoWin_Project\GoWin_DK_Start\led_flash\GoWIN_FPGA_LED_Flash\impl\gwsynthesis\led_flash.vg
 -p GW5A-25A-UBGA324-2
 -pn GW5A-LV25UG324C2/I1
--cst D:\DuyLe\Projects\GoWin_Project\GoWin_DK_Start\led_flash\src\led_flash.cst
--cfg D:\DuyLe\Projects\GoWin_Project\GoWin_DK_Start\led_flash\impl\pnr\device.cfg
+-cst D:\Backup1\AI Hardware Accelerator\GoAI\GoWin_Project\GoWin_DK_Start\led_flash\GoWIN_FPGA_LED_Flash\src\led_flash.cst
+-cfg D:\Backup1\AI Hardware Accelerator\GoAI\GoWin_Project\GoWin_DK_Start\led_flash\GoWIN_FPGA_LED_Flash\impl\pnr\device.cfg
 -bit
 -tr
 -ph

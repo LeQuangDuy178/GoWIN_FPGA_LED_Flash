@@ -1,8 +1,8 @@
 GowinSynthesis start
 Running parser ...
-Analyzing Verilog file 'D:\DuyLe\Projects\GoWin_Project\GoWin_DK_Start\led_flash\src\led_flash.v'
-Analyzing Verilog file 'D:\DuyLe\Projects\GoWin_Project\GoWin_DK_Start\led_flash\src\led_flash_1.v'
-Compiling module 'led_flash'("D:\DuyLe\Projects\GoWin_Project\GoWin_DK_Start\led_flash\src\led_flash.v":1)
+Analyzing Verilog file 'D:\Backup1\AI Hardware Accelerator\GoAI\GoWin_Project\GoWin_DK_Start\led_flash\GoWIN_FPGA_LED_Flash\src\led_flash.v'
+Analyzing Verilog file 'D:\Backup1\AI Hardware Accelerator\GoAI\GoWin_Project\GoWin_DK_Start\led_flash\GoWIN_FPGA_LED_Flash\src\led_flash_1.v'
+Compiling module 'led_flash'("D:\Backup1\AI Hardware Accelerator\GoAI\GoWin_Project\GoWin_DK_Start\led_flash\GoWIN_FPGA_LED_Flash\src\led_flash.v":1)
 NOTE  (EX0101) : Current top module is "led_flash"
 [5%] Running netlist conversion ...
 Running device independent optimization ...
@@ -20,6 +20,6 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-[95%] Generate netlist file "D:\DuyLe\Projects\GoWin_Project\GoWin_DK_Start\led_flash\impl\gwsynthesis\led_flash.vg" completed
-[100%] Generate report file "D:\DuyLe\Projects\GoWin_Project\GoWin_DK_Start\led_flash\impl\gwsynthesis\led_flash_syn.rpt.html" completed
+[95%] Generate netlist file "D:\Backup1\AI Hardware Accelerator\GoAI\GoWin_Project\GoWin_DK_Start\led_flash\GoWIN_FPGA_LED_Flash\impl\gwsynthesis\led_flash.vg" completed
+[100%] Generate report file "D:\Backup1\AI Hardware Accelerator\GoAI\GoWin_Project\GoWin_DK_Start\led_flash\GoWIN_FPGA_LED_Flash\impl\gwsynthesis\led_flash_syn.rpt.html" completed
 GowinSynthesis finish

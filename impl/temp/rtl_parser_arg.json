@@ -2,11 +2,11 @@
  "Device" : "GW5A-25A",
  "Files" : [
   {
-   "Path" : "D:/DuyLe/Projects/GoWin_Project/GoWin_DK_Start/led_flash/src/led_flash.v",
+   "Path" : "D:/Backup1/AI Hardware Accelerator/GoAI/GoWin_Project/GoWin_DK_Start/led_flash/GoWIN_FPGA_LED_Flash/src/led_flash.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "D:/DuyLe/Projects/GoWin_Project/GoWin_DK_Start/led_flash/src/led_flash_1.v",
+   "Path" : "D:/Backup1/AI Hardware Accelerator/GoAI/GoWin_Project/GoWin_DK_Start/led_flash/GoWIN_FPGA_LED_Flash/src/led_flash_1.v",
    "Type" : "verilog"
   }
  ],
@@ -14,7 +14,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "D:/DuyLe/Projects/GoWin_Project/GoWin_DK_Start/led_flash/impl/temp/rtl_parser.result",
+ "ResultFile" : "D:/Backup1/AI Hardware Accelerator/GoAI/GoWin_Project/GoWin_DK_Start/led_flash/GoWIN_FPGA_LED_Flash/impl/temp/rtl_parser.result",
  "Top" : "led_flash",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

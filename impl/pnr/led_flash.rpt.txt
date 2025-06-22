@@ -5,34 +5,34 @@
 1. PnR Messages
 
   <Report Title>: PnR Report
-  <Design File>: D:\DuyLe\Projects\GoWin_Project\GoWin_DK_Start\led_flash\impl\gwsynthesis\led_flash.vg
-  <Physical Constraints File>: D:\DuyLe\Projects\GoWin_Project\GoWin_DK_Start\led_flash\src\led_flash.cst
+  <Design File>: D:\Backup1\AI Hardware Accelerator\GoAI\GoWin_Project\GoWin_DK_Start\led_flash\GoWIN_FPGA_LED_Flash\impl\gwsynthesis\led_flash.vg
+  <Physical Constraints File>: D:\Backup1\AI Hardware Accelerator\GoAI\GoWin_Project\GoWin_DK_Start\led_flash\GoWIN_FPGA_LED_Flash\src\led_flash.cst
   <Timing Constraints File>: ---
   <Tool Version>: V1.9.11.01 Education (64-bit)
   <Part Number>: GW5A-LV25UG324C2/I1
   <Device>: GW5A-25
   <Device Version>: A
-  <Created Time>:Fri May  2 16:24:12 2025
+  <Created Time>:Sun Jun 22 17:46:51 2025
 
 
 2. PnR Details
 
   Running placement:
-    Placement Phase 0: CPU time = 0h 0m 0.007s, Elapsed time = 0h 0m 0.007s
-    Placement Phase 1: CPU time = 0h 0m 0.26s, Elapsed time = 0h 0m 0.26s
+    Placement Phase 0: CPU time = 0h 0m 0.005s, Elapsed time = 0h 0m 0.005s
+    Placement Phase 1: CPU time = 0h 0m 0.183s, Elapsed time = 0h 0m 0.183s
     Placement Phase 2: CPU time = 0h 0m 0.001s, Elapsed time = 0h 0m 0.001s
-    Placement Phase 3: CPU time = 0h 0m 0.562s, Elapsed time = 0h 0m 0.562s
-    Total Placement: CPU time = 0h 0m 0.83s, Elapsed time = 0h 0m 0.83s
+    Placement Phase 3: CPU time = 0h 0m 0.375s, Elapsed time = 0h 0m 0.376s
+    Total Placement: CPU time = 0h 0m 0.564s, Elapsed time = 0h 0m 0.565s
  Running routing:
-    Routing Phase 0: CPU time = 0h 0m 0.001s, Elapsed time = 0h 0m 0s
-    Routing Phase 1: CPU time = 0h 0m 0.699s, Elapsed time = 0h 0m 0.7s
-    Routing Phase 2: CPU time = 0h 0m 0.023s, Elapsed time = 0h 0m 0.023s
+    Routing Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
+    Routing Phase 1: CPU time = 0h 0m 0.537s, Elapsed time = 0h 0m 0.537s
+    Routing Phase 2: CPU time = 0h 0m 0.024s, Elapsed time = 0h 0m 0.023s
     Routing Phase 3: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-    Total Routing: CPU time = 0h 0m 0.723s, Elapsed time = 0h 0m 0.723s
+    Total Routing: CPU time = 0h 0m 0.561s, Elapsed time = 0h 0m 0.56s
  Generate output files:
-    CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s
+    CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
 
- Total Time and Memory Usage: CPU time = 0h 0m 4s, Elapsed time = 0h 0m 4s, Peak memory usage = 472MB
+ Total Time and Memory Usage: CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s, Peak memory usage = 499MB
 
 
 3. Resource Usage Summary
@@ -103,7 +103,7 @@ Port Name  | Diff Pair | Loc./Bank     | Constraint | Dir.  | Site     | CFG    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 clk        | -         | T9/4          | Y          | in    | IOB29[A] | GCLKT_11A       | LVCMOS33   | OFF   | NONE      | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3        | MEDIUM        | NONE         
 rst_n      | -         | B16/1         | Y          | in    | IOT91[A] | RPLL0_T_IN1     | LVCMOS33   | OFF   | NONE      | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3        | MEDIUM        | NONE         
-led        | -         | C14/1         | Y          | out   | IOT89[B] | -               | LVCMOS33   | 8     | NONE      | OFF       | OFF        | OFF        | OFF        | OFF             | OFF           | 3.3        | MEDIUM        | NONE         
+led        | -         | D14/1         | Y          | out   | IOT89[A] | RPLL0_T_FB1     | LVCMOS33   | 8     | NONE      | OFF       | OFF        | OFF        | OFF        | OFF             | OFF           | 3.3        | MEDIUM        | NONE         
 ==================================================================================================================================================================================================================
 
 
@@ -196,8 +196,8 @@ F13/1    | -       | in    | IOT85[A] | -               | LVCMOS33 | 8     | UP 
 E13/1    | -       | in    | IOT85[B] | -               | LVCMOS33 | 8     | UP        | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM        | NONE         
 C15/1    | -       | in    | IOT87[A] | -               | LVCMOS33 | 8     | UP        | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM        | NONE         
 A15/1    | -       | in    | IOT87[B] | -               | LVCMOS33 | 8     | UP        | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM        | NONE         
-D14/1    | -       | in    | IOT89[A] | RPLL0_T_FB1     | LVCMOS33 | 8     | UP        | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM        | NONE         
-C14/1    | led     | out   | IOT89[B] | -               | LVCMOS33 | 8     | NONE      | OFF       | OFF        | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM        | NONE         
+D14/1    | led     | out   | IOT89[A] | RPLL0_T_FB1     | LVCMOS33 | 8     | NONE      | OFF       | OFF        | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM        | NONE         
+C14/1    | -       | in    | IOT89[B] | -               | LVCMOS33 | 8     | UP        | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM        | NONE         
 B16/1    | rst_n   | in    | IOT91[A] | RPLL0_T_IN1     | LVCMOS33 | OFF   | NONE      | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM        | NONE         
 A16/1    | -       | in    | IOT91[B] | RPLL0_C_FB0     | LVCMOS33 | 8     | UP        | OFF       | ON         | OFF        | OFF        | OFF             | OFF           | 3.3   | MEDIUM        | NONE         
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
